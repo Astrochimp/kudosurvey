@@ -1,0 +1,22 @@
+.votelist {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.container {
+  padding: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.vote {
+  cursor: pointer;
+}
+
+.vote:hover {
+  color: #5a7003;
+}

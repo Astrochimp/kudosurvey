@@ -1,0 +1,36 @@
+.container {
+  padding: 5.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+
+.list {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  list-style: none;
+}
+
+.list li {
+  margin: 10px 0;
+}
+
+.list li div {
+  cursor: pointer;
+}
+
+.question {
+  cursor: pointer;
+  transition: all 250ms ease-in-out;
+}
+
+.question:hover {
+  opacity: 0.8;
+  color: #440000;
+  transition: all 250ms ease-in-out;
+}

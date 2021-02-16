@@ -1,0 +1,493 @@
+{
+  "users": [
+    {
+      "id": "rashmi",
+      "name": "Rashmi Manandhar",
+      "avatarURL": "/images/avatars/avataaars1.png",
+      "answers": [
+        {
+          "8xf0y6ziyjabvozdd253nd": "optionOne"
+        },
+        {
+          "6ni6ok3ym7mf1p33lnez": "optionTwo"
+        },
+        {
+          "am8ehyc8byjqgar0jgpub9": "optionTwo"
+        },
+        {
+          "loxhs1bqm25b708cmbf3g": "optionTwo"
+        },
+        {
+          "5kFnTNM": "optionOne"
+        }
+      ],
+      "questions": [
+        "8xf0y6ziyjabvozdd253nd",
+        "am8ehyc8byjqgar0jgpub9"
+      ]
+    },
+    {
+      "id": "julian",
+      "name": "Julian Manandhar",
+      "avatarURL": "/images/avatars/avataaars2.png",
+      "answers": [
+        {
+          "vthrdm985a262al8qx3do": "optionOne"
+        },
+        {
+          "xj352vofupe1dqz9emx13r": "optionTwo"
+        }
+      ],
+      "questions": [
+        "loxhs1bqm25b708cmbf3g",
+        "vthrdm985a262al8qx3do"
+      ]
+    },
+    {
+      "id": "johndoe",
+      "name": "John Doe",
+      "avatarURL": "/images/avatars/avataaars3.png",
+      "answers": [
+        {
+          "xj352vofupe1dqz9emx13r": "optionOne"
+        },
+        {
+          "vthrdm985a262al8qx3do": "optionTwo"
+        },
+        {
+          "6ni6ok3ym7mf1p33lnez": "optionTwo"
+        },
+        {
+          "am8ehyc8byjqgar0jgpub9": "optionOne"
+        },
+        {
+          "5kFnTNM": "optionOne"
+        }
+      ],
+      "questions": [
+        "6ni6ok3ym7mf1p33lnez",
+        "xj352vofupe1dqz9emx13r"
+      ]
+    },
+    {
+      "id": "mprattico",
+      "name": "Marcello",
+      "avatarURL": "/images/avatars/avataaars2.png",
+      "answers": [
+        {
+          "8xf0y6ziyjabvozdd253nd": "optionOne"
+        }
+      ],
+      "questions": []
+    },
+    {
+      "id": "joey",
+      "name": "Joe Something",
+      "avatarURL": "/images/avatars/avataaars3.png",
+      "answers": [
+        {
+          "5kFnTNM": "optionOne"
+        },
+        {
+          "8xf0y6ziyjabvozdd253nd": "optionOne"
+        },
+        {
+          "am8ehyc8byjqgar0jgpub9": "optionOne"
+        },
+        {
+          "vthrdm985a262al8qx3do": "optionOne"
+        },
+        {
+          "4jfh3w6": "optionOne"
+        },
+        {
+          "6ni6ok3ym7mf1p33lnez": "optionOne"
+        }
+      ],
+      "questions": []
+    },
+    {
+      "id": "agatha",
+      "name": "Agatha Harkness",
+      "avatarURL": "/images/avatars/avataaars4.png",
+      "answers": [
+        {
+          "am8ehyc8byjqgar0jgpub9": "optionOne"
+        },
+        {
+          "vthrdm985a262al8qx3do": "optionOne"
+        },
+        {
+          "xj352vofupe1dqz9emx13r": "optionOne"
+        },
+        {
+          "5kFnTNM": "optionOne"
+        },
+        {
+          "4jfh3w6": "optionOne"
+        },
+        {
+          "8xf0y6ziyjabvozdd253nd": "optionOne"
+        },
+        {
+          "loxhs1bqm25b708cmbf3g": "optionOne"
+        },
+        {
+          "iJ9QruH": "optionOne"
+        },
+        {
+          "6ni6ok3ym7mf1p33lnez": "optionTwo"
+        }
+      ],
+      "questions": []
+    },
+    {
+      "id": "skiguy",
+      "name": "Ski Racer",
+      "avatarURL": "/images/avatars/avataaars3.png",
+      "answers": [
+        {
+          "vthrdm985a262al8qx3do": "optionOne"
+        },
+        {
+          "vthrdm985a262al8qx3do": "optionTwo"
+        },
+        {
+          "vthrdm985a262al8qx3do": "optionOne"
+        },
+        {
+          "vthrdm985a262al8qx3do": "optionOne"
+        },
+        {
+          "vthrdm985a262al8qx3do": "optionOne"
+        },
+        {
+          "vthrdm985a262al8qx3do": "optionOne"
+        },
+        {
+          "vthrdm985a262al8qx3do": "optionOne"
+        },
+        {
+          "loxhs1bqm25b708cmbf3g": "optionOne"
+        },
+        {
+          "loxhs1bqm25b708cmbf3g": "optionOne"
+        },
+        {
+          "loxhs1bqm25b708cmbf3g": "optionOne"
+        },
+        {
+          "loxhs1bqm25b708cmbf3g": "optionOne"
+        },
+        {
+          "loxhs1bqm25b708cmbf3g": "optionOne"
+        },
+        {
+          "loxhs1bqm25b708cmbf3g": "optionOne"
+        },
+        {
+          "loxhs1bqm25b708cmbf3g": "optionOne"
+        },
+        {
+          "loxhs1bqm25b708cmbf3g": "optionOne"
+        },
+        {
+          "loxhs1bqm25b708cmbf3g": "optionOne"
+        },
+        {
+          "loxhs1bqm25b708cmbf3g": "optionOne"
+        },
+        {
+          "loxhs1bqm25b708cmbf3g": "optionOne"
+        },
+        {
+          "loxhs1bqm25b708cmbf3g": "optionOne"
+        },
+        {
+          "loxhs1bqm25b708cmbf3g": "optionOne"
+        },
+        {
+          "loxhs1bqm25b708cmbf3g": "optionOne"
+        },
+        {
+          "loxhs1bqm25b708cmbf3g": "optionOne"
+        },
+        {
+          "iJ9QruH": "optionOne"
+        },
+        {
+          "4jfh3w6": "optionOne"
+        },
+        {
+          "5kFnTNM": "optionOne"
+        }
+      ],
+      "questions": []
+    },
+    {
+      "id": "Bike person",
+      "name": "bikeperson",
+      "avatarURL": "/images/avatars/avataaars5.png",
+      "answers": [
+        {
+          "vthrdm985a262al8qx3do": "optionTwo"
+        },
+        {
+          "xj352vofupe1dqz9emx13r": "optionTwo"
+        },
+        {
+          "6ni6ok3ym7mf1p33lnez": "optionOne"
+        },
+        {
+          "am8ehyc8byjqgar0jgpub9": "optionOne"
+        },
+        {
+          "loxhs1bqm25b708cmbf3g": "optionOne"
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "8xf0y6ziyjabvozdd253nd",
+      "author": "rashmi",
+      "timestamp": 1467166872634,
+      "optionOne": {
+        "votes": [
+          "rashmi",
+          "agatha",
+          "skiguy",
+          "joey",
+          "mprattico",
+          "agatha"
+        ],
+        "text": "have horrible short term memory"
+      },
+      "optionTwo": {
+        "votes": [
+          "johndoe",
+          "Bike person"
+        ],
+        "text": "have horrible long term memory"
+      }
+    },
+    {
+      "id": "6ni6ok3ym7mf1p33lnez",
+      "author": "johndoe",
+      "timestamp": 1468479767190,
+      "optionOne": {
+        "votes": [
+          "johndoe",
+          "mprattico",
+          "joey",
+          "Bike person",
+          "Bike person",
+          "joey"
+        ],
+        "text": "become a superhero"
+      },
+      "optionTwo": {
+        "votes": [
+          "johndoe",
+          "rashmi",
+          "agatha",
+          "agatha"
+        ],
+        "text": "become a supervillain"
+      }
+    },
+    {
+      "id": "am8ehyc8byjqgar0jgpub9",
+      "author": "rashmi",
+      "timestamp": 1488579767190,
+      "optionOne": {
+        "votes": [
+          "johndoe",
+          "julian",
+          "agatha",
+          "Bike person",
+          "johndoe",
+          "Bike person",
+          "agatha",
+          "joey"
+        ],
+        "text": "be telekinetic"
+      },
+      "optionTwo": {
+        "votes": [
+          "rashmi"
+        ],
+        "text": "be telepathic"
+      }
+    },
+    {
+      "id": "loxhs1bqm25b708cmbf3g",
+      "author": "julian",
+      "timestamp": 1482579767190,
+      "optionOne": {
+        "votes": [
+          "johndoe",
+          "mprattico",
+          "skiguy",
+          "skiguy",
+          "skiguy",
+          "skiguy",
+          "skiguy",
+          "skiguy",
+          "skiguy",
+          "skiguy",
+          "skiguy",
+          "skiguy",
+          "skiguy",
+          "skiguy",
+          "skiguy",
+          "skiguy",
+          "skiguy",
+          "skiguy",
+          "Bike person",
+          "agatha"
+        ],
+        "text": "be a front-end developer"
+      },
+      "optionTwo": {
+        "votes": [
+          "rashmi",
+          "agatha"
+        ],
+        "text": "be a back-end developer"
+      }
+    },
+    {
+      "id": "vthrdm985a262al8qx3do",
+      "author": "julian",
+      "timestamp": 1489579767190,
+      "optionOne": {
+        "votes": [
+          "julian",
+          "skiguy",
+          "skiguy",
+          "skiguy",
+          "skiguy",
+          "skiguy",
+          "skiguy",
+          "skiguy",
+          "agatha",
+          "joey"
+        ],
+        "text": "find $50 yourself"
+      },
+      "optionTwo": {
+        "votes": [
+          "johndoe",
+          "agatha",
+          "Bike person",
+          "skiguy"
+        ],
+        "text": "have your best friend find $500"
+      }
+    },
+    {
+      "id": "xj352vofupe1dqz9emx13r",
+      "author": "johndoe",
+      "timestamp": 1493579767190,
+      "optionOne": {
+        "votes": [
+          "johndoe",
+          "Bike person",
+          "Bike person",
+          "Bike person",
+          "Bike person",
+          "Bike person",
+          "Bike person",
+          "Bike person",
+          "Bike person",
+          "Bike person",
+          "Bike person",
+          "Bike person",
+          "Bike person",
+          "Bike person",
+          "Bike person",
+          "Bike person",
+          "agatha"
+        ],
+        "text": "write JavaScript"
+      },
+      "optionTwo": {
+        "votes": [
+          "julian",
+          "agatha",
+          "Bike person",
+          "Bike person",
+          "Bike person",
+          "Bike person",
+          "Bike person",
+          "Bike person",
+          "Bike person",
+          "Bike person",
+          "Bike person",
+          "Bike person",
+          "Bike person",
+          "Bike person",
+          "Bike person",
+          "Bike person",
+          "Bike person",
+          "Bike person"
+        ],
+        "text": "write Swift"
+      }
+    },
+    {
+      "author": "skiguy",
+      "timestamp": 1613494017754,
+      "optionOne": {
+        "votes": [
+          "skiguy",
+          "agatha"
+        ],
+        "text": "Ride a bike"
+      },
+      "optionTwo": {
+        "votes": [],
+        "text": "Go skiing"
+      },
+      "id": "iJ9QruH"
+    },
+    {
+      "author": "skiguy",
+      "timestamp": 1613494061865,
+      "optionOne": {
+        "votes": [
+          "skiguy",
+          "joey",
+          "agatha"
+        ],
+        "text": "Play in the snow"
+      },
+      "optionTwo": {
+        "votes": [],
+        "text": "Shovel the snow"
+      },
+      "id": "4jfh3w6"
+    },
+    {
+      "author": "agatha",
+      "timestamp": 1613494751885,
+      "optionOne": {
+        "votes": [
+          "agatha",
+          "skiguy",
+          "joey",
+          "johndoe",
+          "rashmi"
+        ],
+        "text": "Eat lunch"
+      },
+      "optionTwo": {
+        "votes": [],
+        "text": "Watch TV"
+      },
+      "id": "5kFnTNM"
+    }
+  ]
+}

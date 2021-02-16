@@ -1,0 +1,46 @@
+.form {
+  width: 400px;
+}
+
+label {
+  display: block;
+  margin: 10px 0;
+}
+
+.formlabel {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid #eee;
+  font-size: 1.2rem;
+  width: 100%;
+}
+
+.avatarlist {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.avatar {
+  margin: 10px;
+  cursor: pointer;
+  transition: all 250ms ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar:hover {
+  opacity: 0.8;
+  transition: all 250ms ease;
+}
+
+.selected {
+  border: 2px solid #ccff33;
+}
