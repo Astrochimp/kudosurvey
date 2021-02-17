@@ -115,7 +115,6 @@ const QuestionPage = ({ originalQuestion, questionId, users }) => {
     })
       .then((response) => response.json())
       .then((data) => {
-        console.log("user updated", data);
         auth.updateUser(data.id);
       })
       .catch((err) => {

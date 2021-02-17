@@ -152,3 +152,92 @@ nav a:hover,
   padding: 5px 20px;
   border-radius: 5px;
 }
+
+table {
+  margin: 20px 0;
+}
+
+td {
+  padding: 5px;
+}
+
+td.alignleft {
+  text-align: left;
+}
+
+td.center {
+  text-align: center;
+}
+
+.navburger {
+  display: none;
+}
+
+@media only screen and (max-width: 744px) {
+  .container {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+
+  nav {
+    font-size: 22px;
+    align-items: flex-start;
+  }
+
+  .navburger {
+    display: block;
+  }
+
+  .dropdown {
+    background: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    right: 50px;
+    top: 0px;
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin: 0;
+  }
+
+  .dropdown ul {
+    display: flex;
+    flex-direction: colunm;
+    justify-content: flex-start;
+  }
+
+  .menuhidden {
+    transform: translateY(-1000px);
+    transition: all 300ms ease-in-out;
+  }
+
+  .menuvisible {
+    transform: translateY(0px);
+    transition: all 300ms ease-in-out;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  ul {
+    margin: 0;
+  }
+
+  .list {
+    margin: 0;
+    padding: 0;
+  }
+
+  .form {
+    width: 100%;
+    margin: 0 5px;
+  }
+}

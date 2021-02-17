@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "server": "json-server --watch public/data/db.json -p 3001",
-    "runproject": "concurrently \"npm run dev\" \"npm run server\""
+    "project": "concurrently \"npm run dev\" \"npm run server\""
   },
   "dependencies": {
     "concurrently": "^5.3.0",

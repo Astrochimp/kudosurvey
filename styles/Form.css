@@ -44,3 +44,10 @@ input[type="text"] {
 .selected {
   border: 2px solid #ccff33;
 }
+
+@media only screen and (max-width: 744px) {
+  .form {
+    width: 100%;
+    margin: 5px;
+  }
+}

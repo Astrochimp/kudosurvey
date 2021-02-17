@@ -51,6 +51,21 @@
         },
         {
           "am8ehyc8byjqgar0jgpub9": "optionOne"
+        },
+        {
+          "iJ9QruH": "optionOne"
+        },
+        {
+          "4jfh3w6": "optionTwo"
+        },
+        {
+          "5kFnTNM": "optionTwo"
+        },
+        {
+          "kIzCyd0": "optionTwo"
+        },
+        {
+          "loxhs1bqm25b708cmbf3g": "optionOne"
         }
       ],
       "questions": [
@@ -91,6 +106,33 @@
       "answers": [
         {
           "8xf0y6ziyjabvozdd253nd": "optionOne"
+        },
+        {
+          "loxhs1bqm25b708cmbf3g": "optionOne"
+        },
+        {
+          "4jfh3w6": "optionOne"
+        },
+        {
+          "6ni6ok3ym7mf1p33lnez": "optionOne"
+        },
+        {
+          "xj352vofupe1dqz9emx13r": "optionOne"
+        },
+        {
+          "am8ehyc8byjqgar0jgpub9": "optionOne"
+        },
+        {
+          "vthrdm985a262al8qx3do": "optionTwo"
+        },
+        {
+          "iJ9QruH": "optionOne"
+        },
+        {
+          "5kFnTNM": "optionOne"
+        },
+        {
+          "kIzCyd0": "optionTwo"
         }
       ],
       "questions": []
@@ -165,73 +207,25 @@
       "avatarURL": "/images/avatars/avataaars3.png",
       "answers": [
         {
-          "vthrdm985a262al8qx3do": "optionOne"
+          "8xf0y6ziyjabvozdd253nd": "optionOne"
         },
         {
-          "vthrdm985a262al8qx3do": "optionTwo"
+          "6ni6ok3ym7mf1p33lnez": "optionOne"
         },
         {
-          "vthrdm985a262al8qx3do": "optionOne"
+          "am8ehyc8byjqgar0jgpub9": "optionOne"
         },
         {
-          "vthrdm985a262al8qx3do": "optionOne"
-        },
-        {
-          "vthrdm985a262al8qx3do": "optionOne"
-        },
-        {
-          "vthrdm985a262al8qx3do": "optionOne"
+          "loxhs1bqm25b708cmbf3g": "optionOne"
         },
         {
           "vthrdm985a262al8qx3do": "optionOne"
         },
         {
-          "loxhs1bqm25b708cmbf3g": "optionOne"
+          "xj352vofupe1dqz9emx13r": "optionOne"
         },
         {
-          "loxhs1bqm25b708cmbf3g": "optionOne"
-        },
-        {
-          "loxhs1bqm25b708cmbf3g": "optionOne"
-        },
-        {
-          "loxhs1bqm25b708cmbf3g": "optionOne"
-        },
-        {
-          "loxhs1bqm25b708cmbf3g": "optionOne"
-        },
-        {
-          "loxhs1bqm25b708cmbf3g": "optionOne"
-        },
-        {
-          "loxhs1bqm25b708cmbf3g": "optionOne"
-        },
-        {
-          "loxhs1bqm25b708cmbf3g": "optionOne"
-        },
-        {
-          "loxhs1bqm25b708cmbf3g": "optionOne"
-        },
-        {
-          "loxhs1bqm25b708cmbf3g": "optionOne"
-        },
-        {
-          "loxhs1bqm25b708cmbf3g": "optionOne"
-        },
-        {
-          "loxhs1bqm25b708cmbf3g": "optionOne"
-        },
-        {
-          "loxhs1bqm25b708cmbf3g": "optionOne"
-        },
-        {
-          "loxhs1bqm25b708cmbf3g": "optionOne"
-        },
-        {
-          "loxhs1bqm25b708cmbf3g": "optionOne"
-        },
-        {
-          "iJ9QruH": "optionOne"
+          "iJ9QruH": "optionTwo"
         },
         {
           "4jfh3w6": "optionOne"
@@ -240,19 +234,7 @@
           "5kFnTNM": "optionOne"
         },
         {
-          "am8ehyc8byjqgar0jgpub9": "optionOne"
-        },
-        {
-          "6ni6ok3ym7mf1p33lnez": "optionOne"
-        },
-        {
-          "xj352vofupe1dqz9emx13r": "optionOne"
-        },
-        {
-          "8xf0y6ziyjabvozdd253nd": "optionOne"
-        },
-        {
-          "kIzCyd0": "optionOne"
+          "kIzCyd0": "optionTwo"
         }
       ],
       "questions": []
@@ -276,6 +258,21 @@
         },
         {
           "loxhs1bqm25b708cmbf3g": "optionOne"
+        },
+        {
+          "iJ9QruH": "optionOne"
+        },
+        {
+          "4jfh3w6": "optionOne"
+        },
+        {
+          "5kFnTNM": "optionTwo"
+        },
+        {
+          "kIzCyd0": "optionTwo"
+        },
+        {
+          "8xf0y6ziyjabvozdd253nd": "optionTwo"
         }
       ],
       "questions": []
@@ -306,14 +303,16 @@
           "mprattico",
           "skiguy",
           "julian",
-          "beavis"
+          "beavis",
+          "skiguy"
         ],
         "text": "have horrible short term memory"
       },
       "optionTwo": {
         "votes": [
           "johndoe",
-          "Bike person"
+          "Bike person",
+          "bikeperson"
         ],
         "text": "have horrible long term memory"
       }
@@ -328,7 +327,9 @@
           "mprattico",
           "joey",
           "skiguy",
-          "julian"
+          "julian",
+          "skiguy",
+          "mprattico"
         ],
         "text": "become a superhero"
       },
@@ -352,7 +353,9 @@
           "julian",
           "joey",
           "skiguy",
-          "julian"
+          "julian",
+          "skiguy",
+          "mprattico"
         ],
         "text": "be telekinetic"
       },
@@ -373,7 +376,10 @@
           "mprattico",
           "skiguy",
           "bikeperson",
-          "agatha"
+          "agatha",
+          "skiguy",
+          "julian",
+          "mprattico"
         ],
         "text": "be a front-end developer"
       },
@@ -393,7 +399,8 @@
         "votes": [
           "julian",
           "agatha",
-          "joey"
+          "joey",
+          "skiguy"
         ],
         "text": "find $50 yourself"
       },
@@ -403,7 +410,8 @@
           "agatha",
           "bikeperson",
           "skiguy",
-          "rashmi"
+          "rashmi",
+          "mprattico"
         ],
         "text": "have your best friend find $500"
       }
@@ -416,7 +424,9 @@
         "votes": [
           "johndoe",
           "agatha",
-          "skiguy"
+          "skiguy",
+          "skiguy",
+          "mprattico"
         ],
         "text": "write JavaScript"
       },
@@ -435,12 +445,17 @@
       "optionOne": {
         "votes": [
           "skiguy",
-          "agatha"
+          "agatha",
+          "julian",
+          "bikeperson",
+          "mprattico"
         ],
         "text": "Ride a bike"
       },
       "optionTwo": {
-        "votes": [],
+        "votes": [
+          "skiguy"
+        ],
         "text": "Go skiing"
       },
       "id": "iJ9QruH"
@@ -452,12 +467,17 @@
         "votes": [
           "skiguy",
           "joey",
-          "agatha"
+          "agatha",
+          "bikeperson",
+          "skiguy",
+          "mprattico"
         ],
         "text": "Play in the snow"
       },
       "optionTwo": {
-        "votes": [],
+        "votes": [
+          "julian"
+        ],
         "text": "Shovel the snow"
       },
       "id": "4jfh3w6"
@@ -471,12 +491,17 @@
           "skiguy",
           "joey",
           "johndoe",
-          "rashmi"
+          "rashmi",
+          "skiguy",
+          "mprattico"
         ],
         "text": "Eat lunch"
       },
       "optionTwo": {
-        "votes": [],
+        "votes": [
+          "julian",
+          "bikeperson"
+        ],
         "text": "Watch TV"
       },
       "id": "5kFnTNM"
@@ -492,7 +517,11 @@
       },
       "optionTwo": {
         "votes": [
-          "agatha"
+          "agatha",
+          "julian",
+          "bikeperson",
+          "skiguy",
+          "mprattico"
         ],
         "text": "Shovel the driveway"
       },

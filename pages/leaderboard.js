@@ -87,7 +87,7 @@ const Leaderboard = ({ questions, users }) => {
           {userlist.map((person) => {
             return (
               <tr key={Math.random()}>
-                <td>
+                <td className="center">
                   <Image
                     src={person?.avatarURL}
                     width={50}
@@ -95,38 +95,44 @@ const Leaderboard = ({ questions, users }) => {
                     alt={person.name}
                   />
                 </td>
-                <td>
+                <td className="alignleft">
                   <h3>{person.name}</h3>
                 </td>
-                <td>{person.answers.length}</td>
-                <td>{person.questions.length}</td>
+                <td className="center">{person.answers.length}</td>
+                <td className="center">{person.questions.length}</td>
               </tr>
             );
           })}
         </tbody>
       </table>
 
+      <h2>Questions</h2>
+
       <table>
         <thead>
           <tr>
-            <th>Question</th>
-            <th>Option 1</th>
-            <th>Option 2</th>
+            <th>Option</th>
+            <th></th>
+            <th>Option</th>
+            <th></th>
           </tr>
         </thead>
         <tbody>
           {questions.map((que) => {
             return (
               <tr key={que.id}>
-                <td>
+                <td className="alignleft">
                   <Link href={`/questions/${que.id}`}>
-                    <div className="question">
-                      {que.optionOne.text} / {que.optionTwo.text}
-                    </div>
+                    <div>{que.optionOne.text}</div>
                   </Link>
                 </td>
-                <td>{que.optionOne.votes.length}</td>
-                <td>{que.optionTwo.votes.length}</td>
+                <td className="center">{que.optionOne.votes.length}</td>
+                <td className="alignleft">
+                  <Link href={`/questions/${que.id}`}>
+                    <div>{que.optionTwo.text}</div>
+                  </Link>
+                </td>
+                <td className="center">{que.optionTwo.votes.length}</td>
               </tr>
             );
           })}
