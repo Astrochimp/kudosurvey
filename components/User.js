@@ -9,23 +9,24 @@ const User = () => {
   const auth = useAuth();
 
   if (!auth.user) {
-    return <div>No user</div>;
+    return <div className={styles.user}></div>;
   }
 
   return (
     <div className={styles.user}>
-      <div>{auth?.user && <div>{auth.user.name}</div>} </div>
-
-      {auth.user?.avatarURL && (
-        <Image
-          src={auth.user?.avatarURL}
-          width={150}
-          height={150}
-          alt={auth.user.name}
-        />
-      )}
-
-      <div onClick={() => auth.signout()}>Signout</div>
+      <div className={styles.avatarwrapper}>
+        {auth.user?.avatarURL && (
+          <Image
+            src={auth.user?.avatarURL}
+            width={50}
+            height={50}
+            alt={auth.user.name}
+          />
+        )}
+      </div>
+      <div className={styles.userbutton}>
+        {auth?.user && <div>{auth.user.name}</div>}{" "}
+      </div>
     </div>
   );
 };

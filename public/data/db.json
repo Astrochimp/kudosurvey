@@ -19,6 +19,12 @@
         },
         {
           "5kFnTNM": "optionOne"
+        },
+        {
+          "vthrdm985a262al8qx3do": "optionTwo"
+        },
+        {
+          "xj352vofupe1dqz9emx13r": "optionTwo"
         }
       ],
       "questions": [
@@ -36,6 +42,15 @@
         },
         {
           "xj352vofupe1dqz9emx13r": "optionTwo"
+        },
+        {
+          "8xf0y6ziyjabvozdd253nd": "optionOne"
+        },
+        {
+          "6ni6ok3ym7mf1p33lnez": "optionOne"
+        },
+        {
+          "am8ehyc8byjqgar0jgpub9": "optionOne"
         }
       ],
       "questions": [
@@ -137,6 +152,9 @@
         },
         {
           "6ni6ok3ym7mf1p33lnez": "optionTwo"
+        },
+        {
+          "kIzCyd0": "optionTwo"
         }
       ],
       "questions": []
@@ -220,13 +238,28 @@
         },
         {
           "5kFnTNM": "optionOne"
+        },
+        {
+          "am8ehyc8byjqgar0jgpub9": "optionOne"
+        },
+        {
+          "6ni6ok3ym7mf1p33lnez": "optionOne"
+        },
+        {
+          "xj352vofupe1dqz9emx13r": "optionOne"
+        },
+        {
+          "8xf0y6ziyjabvozdd253nd": "optionOne"
+        },
+        {
+          "kIzCyd0": "optionOne"
         }
       ],
       "questions": []
     },
     {
-      "id": "Bike person",
-      "name": "bikeperson",
+      "id": "bikeperson",
+      "name": "Bike Person",
       "avatarURL": "/images/avatars/avataaars5.png",
       "answers": [
         {
@@ -246,6 +279,17 @@
         }
       ],
       "questions": []
+    },
+    {
+      "id": "beavis",
+      "name": "Beavis",
+      "avatarURL": "/images/avatars/avataaars1.png",
+      "answers": [
+        {
+          "8xf0y6ziyjabvozdd253nd": "optionOne"
+        }
+      ],
+      "questions": []
     }
   ],
   "questions": [
@@ -260,7 +304,9 @@
           "skiguy",
           "joey",
           "mprattico",
-          "agatha"
+          "skiguy",
+          "julian",
+          "beavis"
         ],
         "text": "have horrible short term memory"
       },
@@ -281,9 +327,8 @@
           "johndoe",
           "mprattico",
           "joey",
-          "Bike person",
-          "Bike person",
-          "joey"
+          "skiguy",
+          "julian"
         ],
         "text": "become a superhero"
       },
@@ -305,12 +350,9 @@
         "votes": [
           "johndoe",
           "julian",
-          "agatha",
-          "Bike person",
-          "johndoe",
-          "Bike person",
-          "agatha",
-          "joey"
+          "joey",
+          "skiguy",
+          "julian"
         ],
         "text": "be telekinetic"
       },
@@ -330,22 +372,7 @@
           "johndoe",
           "mprattico",
           "skiguy",
-          "skiguy",
-          "skiguy",
-          "skiguy",
-          "skiguy",
-          "skiguy",
-          "skiguy",
-          "skiguy",
-          "skiguy",
-          "skiguy",
-          "skiguy",
-          "skiguy",
-          "skiguy",
-          "skiguy",
-          "skiguy",
-          "skiguy",
-          "Bike person",
+          "bikeperson",
           "agatha"
         ],
         "text": "be a front-end developer"
@@ -365,13 +392,6 @@
       "optionOne": {
         "votes": [
           "julian",
-          "skiguy",
-          "skiguy",
-          "skiguy",
-          "skiguy",
-          "skiguy",
-          "skiguy",
-          "skiguy",
           "agatha",
           "joey"
         ],
@@ -381,8 +401,9 @@
         "votes": [
           "johndoe",
           "agatha",
-          "Bike person",
-          "skiguy"
+          "bikeperson",
+          "skiguy",
+          "rashmi"
         ],
         "text": "have your best friend find $500"
       }
@@ -394,22 +415,8 @@
       "optionOne": {
         "votes": [
           "johndoe",
-          "Bike person",
-          "Bike person",
-          "Bike person",
-          "Bike person",
-          "Bike person",
-          "Bike person",
-          "Bike person",
-          "Bike person",
-          "Bike person",
-          "Bike person",
-          "Bike person",
-          "Bike person",
-          "Bike person",
-          "Bike person",
-          "Bike person",
-          "agatha"
+          "agatha",
+          "skiguy"
         ],
         "text": "write JavaScript"
       },
@@ -417,22 +424,7 @@
         "votes": [
           "julian",
           "agatha",
-          "Bike person",
-          "Bike person",
-          "Bike person",
-          "Bike person",
-          "Bike person",
-          "Bike person",
-          "Bike person",
-          "Bike person",
-          "Bike person",
-          "Bike person",
-          "Bike person",
-          "Bike person",
-          "Bike person",
-          "Bike person",
-          "Bike person",
-          "Bike person"
+          "rashmi"
         ],
         "text": "write Swift"
       }
@@ -488,6 +480,23 @@
         "text": "Watch TV"
       },
       "id": "5kFnTNM"
+    },
+    {
+      "author": "skiguy",
+      "timestamp": 1613510620523,
+      "optionOne": {
+        "votes": [
+          "skiguy"
+        ],
+        "text": "Wash your car"
+      },
+      "optionTwo": {
+        "votes": [
+          "agatha"
+        ],
+        "text": "Shovel the driveway"
+      },
+      "id": "kIzCyd0"
     }
   ]
 }

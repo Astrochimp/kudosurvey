@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 import { useAuth } from "../lib/auth";
-import Users from "../components/Users";
+import Login from "../components/Login";
 import List from "../components/List";
 
 import styles from "../styles/Home.module.css";
@@ -45,7 +45,7 @@ const Home = ({ questions }) => {
       {auth?.user ? (
         <List questions={questions} user={auth.user} />
       ) : (
-        <Users userList={userList} userSelect={userSelect} />
+        <Login userList={userList} userSelect={userSelect} />
       )}
     </div>
   );

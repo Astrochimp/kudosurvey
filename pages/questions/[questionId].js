@@ -1,6 +1,7 @@
 import { useRef, useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import Head from "next/head";
+import Link from "next/link";
 import { useAuth } from "../../lib/auth";
 import GetUser from "../../components/GetUser";
 
@@ -134,16 +135,11 @@ const QuestionPage = ({ originalQuestion, questionId, users }) => {
     <div className={styles.container} key={question.id}>
       <h2>Would you rather?</h2>
 
-      {answers.length > 0 && (
-        <div className="you-voted">
-          <h4>
-            <span aria-roledescription="image">⭐️</span>
-            You voted!
-            <span aria-roledescription="image">⭐️</span>
-          </h4>
-        </div>
-      )}
-
+      <div className="author">
+        Created by
+        <GetUser vote={question.author} users={users} />
+        <div>{question.author}</div>
+      </div>
       <h3
         className={styles.vote}
         onClick={() => vote({ choice: "optionOne", question, user: auth.user })}
@@ -182,6 +178,22 @@ const QuestionPage = ({ originalQuestion, questionId, users }) => {
           ))}
         </div>
       </div>
+
+      {answers.length > 0 && (
+        <div className="you-voted">
+          <h4>
+            <span aria-roledescription="image">⭐️</span>
+            You voted!
+            <span aria-roledescription="image">⭐️</span>
+          </h4>
+
+          <div>
+            <Link className="mainbutton" href="/">
+              Question List
+            </Link>
+          </div>
+        </div>
+      )}
     </div>
   );
 };

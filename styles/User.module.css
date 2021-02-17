@@ -1,7 +1,8 @@
 .user {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
+  justify-content: flex-end;
 }
 
 .avatar {
@@ -10,4 +11,9 @@
   align-items: center;
   justify-content: center;
   padding: 5px;
+}
+
+.avatarwrapper {
+  margin: 0;
+  padding: 0;
 }

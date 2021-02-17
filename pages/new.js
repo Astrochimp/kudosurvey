@@ -69,7 +69,7 @@ const NewQuestion = () => {
               placeholder="Option One"
             />
           </label>
-          <label htmlFor="fullname">
+          <label htmlFor="optiontwo">
             <div className="formlabel">Option Two</div>
             <input
               id="optiontwo"
@@ -81,7 +81,12 @@ const NewQuestion = () => {
             />
           </label>
 
-          <input type="submit" name="Add User" />
+          <input
+            className="mainbutton"
+            type="submit"
+            name="submit"
+            value="Add User"
+          />
         </form>
       </div>
     </div>

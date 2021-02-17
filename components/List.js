@@ -10,20 +10,9 @@ const List = ({ questions, user }) => {
     );
   }
 
-  if (user && user.answers) {
-    const doneQuestions = questions.filter((que) => {
-      user.answers.filter((ans) => console.log(ans, que.id));
-    });
-
-    console.log({ doneQuestions });
-  }
-
   return (
     <div className="container">
       <h2>Would you rather?</h2>
-
-      <h2>Questions</h2>
-
       <ul className="list">
         {questions.map((que) => {
           const questionDone = user.answers.filter(
@@ -35,11 +24,13 @@ const List = ({ questions, user }) => {
               <Link href={`/questions/${que.id}`}>
                 <div className="question">
                   {questionDone.length > 0 && (
-                    <div>
+                    <div className="donestar">
                       <span aria-roledescription="image">⭐️</span>
                     </div>
                   )}
-                  {que.optionOne.text}/ {que.optionTwo.text}
+                  <div className="questiontext">
+                    {que.optionOne.text} / {que.optionTwo.text}
+                  </div>
                 </div>
               </Link>
             </li>

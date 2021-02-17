@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
 
-const Users = ({ userList, userSelect }) => (
-  <div>
+const Login = ({ userList, userSelect }) => (
+  <div className="login">
     <h2>Login as</h2>
     <select onChange={(e) => userSelect(e)}>
       <option>Choose a user</option>
@@ -16,9 +16,11 @@ const Users = ({ userList, userSelect }) => (
     </select>
 
     <div>
-      <Link href="/newuser">Create new user</Link>
+      <Link className="mainbutton" href="/newuser">
+        Create new user
+      </Link>
     </div>
   </div>
 );
 
-export default Users;
+export default Login;

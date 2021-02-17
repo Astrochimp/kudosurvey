@@ -44,15 +44,13 @@ const ListPage = ({ questions }) => {
     <div className={styles.container}>
       <h2>Would you rather?</h2>
 
-      <h2>Questions</h2>
-
       <ul className="list">
         {questions.map((que) => {
           return (
             <li key={que.id}>
               <Link href={`/questions/${que.id}`}>
                 <div className={styles.question}>
-                  {que.optionOne.text}/ {que.optionTwo.text}
+                  {que.optionOne.text} / {que.optionTwo.text}
                 </div>
               </Link>
             </li>

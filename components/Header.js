@@ -8,18 +8,24 @@ const Header = () => {
 
   return (
     <header className="main-header">
-      <Link href="/">
-        <h1>Kudo Survey</h1>
-      </Link>
+      <div className="header-wrapper">
+        <Link href="/">
+          <h1>Kudo Survey</h1>
+        </Link>
 
-      {auth.user && (
-        <div>
-          <Link href="/new">Create new question</Link>
-          <Link href="/leaderboard">Leaderboard</Link>
-        </div>
-      )}
+        {auth.user && (
+          <nav>
+            <Link href="/">Questions</Link>
+            <Link href="/new">New Question</Link>
+            <Link href="/leaderboard">Leaderboard</Link>
+            <div className="mainbutton" onClick={() => auth.signout()}>
+              Signout
+            </div>
+          </nav>
+        )}
 
-      <User />
+        <User />
+      </div>
     </header>
   );
 };

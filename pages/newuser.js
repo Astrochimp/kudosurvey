@@ -113,7 +113,12 @@ const Newuser = () => {
             </div>
           </label>
 
-          <input type="submit" name="Add User" />
+          <input
+            type="submit"
+            name="submit"
+            className="mainbutton"
+            value="Add User"
+          />
         </form>
       </div>
     </div>
