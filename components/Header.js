@@ -18,7 +18,7 @@ const Header = () => {
           <h1>Kudo Survey</h1>
         </Link>
 
-        {auth.user && (
+        {auth?.user && (
           <nav className={`dropdown ${navigationClassName}`}>
             <Link href="/">Questions</Link>
             <Link href="/new">New Question</Link>
